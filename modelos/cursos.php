@@ -26,4 +26,4 @@ class Producto extends Conexion{
         return $resultado;
     }
 }
-
+//conexion a la base de datos 
