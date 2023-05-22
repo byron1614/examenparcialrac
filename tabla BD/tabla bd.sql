@@ -7,3 +7,5 @@ create table cursos(
     curso_creditos varchar(70) not null,
     primary key (cursos_id)
 );
+
+/*tabla base de datos 
