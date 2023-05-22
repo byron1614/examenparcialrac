@@ -20,8 +20,8 @@
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="cursos_cantiad_de_periodos">Cantidad de Periodos</label>
-                        <input type="text" name="cursos_cantiad_de_periodos" id="cursos_cantiad_de_periodos" class="form-control" required>
+                        <label for="cursos_cantidad_de_periodos">Cantidad de Periodos</label>
+                        <input type="text" name="cursos_cantidad_de_periodos" id="cursos_cantidad_de_periodos" class="form-control" required>
                     </div>
                 </div>
                 <div class="row mb-3">
@@ -33,13 +33,13 @@
                 <div class="row mb-3">
                     <div class="col">
                         <label for="cursos_nombre_del_instructor">Nombres del Instructor</label>
-                        <input type="text" name="cursos_cantidad_de_periodos" id="cursos_cantidad_de_periodos" class="form-control" required>
+                        <input type="text" name="cursos_nombre_del_instructor" id="cursos_nombre_del_instructor" class="form-control" required>
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="cursos_dreditos">Creditos correspondientes al curso</label>
-                        <input type="text" name="cursos_dreditos" id="cursos_dreditos" class="form-control"required>
+                        <label for="cursos_creditos">Creditos correspondientes al curso</label>
+                        <input type="number" name="cursos_creditos" id="cursos_creditos" class="form-control"required>
                     </div>
                 </div>
                 <div class="row mb-3">
