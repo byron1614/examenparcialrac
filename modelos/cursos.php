@@ -2,22 +2,24 @@
 require 'Conexion.php';
 
 class Producto extends Conexion{
-    public $producto_id;
-    public $producto_nombre;
-    public $producto_precio;
-    public $producto_situacion;
+    public $cursos_id;
+    public $cursos_nombre;
+    public $cursos_cantidad_de_periodos;
+    public $cursos_fase_de_imparticion;
+    public $cursos_nombre_del_instructor;
+    public $cursos_creditos;
 
 
     public function __construct($args = [] )
     {
-        $this->producto_id = $args['producto_id'] ?? null;
-        $this->producto_nombre = $args['producto_nombre'] ?? '';
-        $this->producto_precio = $args['producto_precio'] ?? '';
-        $this->producto_situacion = $args['producto_situacion'] ?? '';
+        $this->cursos_id = $args['cursos_id'] ?? null;
+        $this->cursos_nombre = $args['cursos_nombre'] ?? '';
+        $this->cursos_cantidad_de_periodos = $args['cursos_precio'] ?? '';
+        $this->cursos_situacion = $args['cursos_situacion'] ?? '';
     }
 
     public function guardar(){
-        $sql = "INSERT INTO productos(producto_nombre, producto_precio) values('$this->producto_nombre','$this->producto_precio')";
+        $sql = "INSERT INTO cursoss(cursos_nombre, producto_precio) values('$this->producto_nombre','$this->producto_precio')";
         $resultado = self::ejecutar($sql);
         return $resultado;
     }
