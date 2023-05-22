@@ -49,3 +49,4 @@ abstract class Conexion{
         return $resultados;
     }
 }
+//confirmacion de  conexion
